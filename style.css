@@ -34,7 +34,7 @@ p{
     text-align: center;
 }
 
-.card {
+.card-deck {
   height: 150px;
   width: auto;
   padding: 25px;
@@ -42,13 +42,6 @@ p{
   margin-right: 50px;
 }
 
-.card-body {
-  height: 150px;
-  width: auto;
-  padding: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
 
 
 .jumbotron{
