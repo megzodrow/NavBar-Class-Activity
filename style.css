@@ -16,9 +16,13 @@ h1{
   font-weight: bold;
 }
 
+.lead center: { 
+  font-family: "Popplins", sans-serif;
+  font-weight: bold;
+}
 p{ 
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: regular;
 }
 
 .center {
