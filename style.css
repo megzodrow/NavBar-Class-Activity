@@ -58,5 +58,7 @@ p{
 .footer { 
   display: block;
   text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900, bolder;
 
 }
