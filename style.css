@@ -1,33 +1,33 @@
-@font-face { font-family: Poppins; src: url ("https://images.unsplash.com/photo-1527265715775-fca32a0f9b22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3153&q=80")
+@font-face { font-family: Nunito; src: url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap)
 }
 
 
-*{ font-family: 'Poppins', sans-serif;
+*{ font-family: 'Nunito', sans-serif;
  }
 
 .navbar-brand { 
-  font-family: 'Poppins', san-serif;
+  font-family: 'Nunito', san-serif;
   font-weight: 0, 600;
 }
 
 
 h1{
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800, bold;
 }
 
 .lead center  { 
-  font-family: "Popplins", sans-serif;
-  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600, semi-bold;
 }
 
 h5{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
 }
 p{ 
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
 }
 
 .center {
@@ -42,7 +42,7 @@ card{
 
 
 .jumbotron{
-  background: url(https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3149&q=80); 
+  background: url(https://images.unsplash.com/photo-1527265715775-fca32a0f9b22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3153&q=80); 
   height: 400vh;
 }
 
