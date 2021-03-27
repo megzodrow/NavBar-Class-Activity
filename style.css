@@ -5,7 +5,7 @@
 *{ font-family: 'Nunito', sans-serif;
  }
 
-.navbar { 
+.navbar-brand { 
   font-family: 'Nunito', san-serif;
   font-weight: 0, 600;
 }
@@ -35,10 +35,11 @@ p{
 }
 
 .card{
-  height: 200px;
+  height: 150px;
   width: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
