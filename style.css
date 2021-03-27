@@ -35,7 +35,8 @@ p{
 }
 
 card{
-  height: 300px width:auto;
+  height: 150px;
+  width: auto;
   padding: 25px;
   margin-left: 50px;
   margin-right: 50px;
@@ -47,5 +48,8 @@ card{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  margin: 5%;
+  height: auto;
+  width: 50%;
 }
 
