@@ -23,12 +23,19 @@
 <body class="d-flex flex-column h-100">
 
 
-  <nav class="navbar navbar-expand-sm bg-white navbar-light">
+     <!-- I wanted to have the hamburger menu when going down to xs size, but when I added
+    that line of copy, it  -->
+
+
+  <nav class="navbar navbar-expand-lg bg-white navbar-light">
     <!-- Brand -->
     <a class="navbar-brand" href="index.html">
 
       <img src="images/Hawaii Logo.png" alt="Visit the Hawaiian Islands logo"></a>
-
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
@@ -79,8 +86,6 @@
   <div id="page-container">
     <div id="content-wrap">
 
-
-      <!-- Need to change the height of card deck  -->
       <div class="container">
       <div class="card-deck">
         <div class="card" class="col-lg-3" Column left>
@@ -120,6 +125,12 @@
     </div>
 
 </body>
+
+<!-- This is supposed to be the footer, at the bottom of each page. I've searched a lot and found 
+  that some advised to have the footer outside the body so that it is at the bottom of the page.
+  I've tried at least 25 different ways to get the footer on the bottom and not overlaying the page content. 
+  I'm not sure how to resolve this. -->
+
 
   <div id="bottom">
     <div id="footer" class="card bg-white text-gray text-center">

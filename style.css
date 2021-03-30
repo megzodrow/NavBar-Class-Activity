@@ -50,7 +50,7 @@ p{
 }
 
 .navbar{
-  margin-bottom: 2.5%;
+  margin-bottom: 1.5%;
 }
 
 .center {
@@ -69,10 +69,6 @@ p{
   font-size: 16px;
 }
 
-
-/* body, html {
-  height: 100%;
-} */
 
 .hero-image { 
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1596977771393-0c660a2432f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHxoYXdhaWl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");

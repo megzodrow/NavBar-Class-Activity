@@ -15,26 +15,31 @@
 <body>
     
  
-  <nav class="navbar navbar-expand-sm bg-white navbar-light">
+  
+  <nav class="navbar navbar-expand-lg bg-white navbar-light">
     <!-- Brand -->
     <a class="navbar-brand" href="index.html">
-    <img src="images/Hawaii Logo.png" alt="Visit the Hawaiian Islands logo"></a>
-  
+
+      <img src="images/Hawaii Logo.png" alt="Visit the Hawaiian Islands logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" href="history.html">A History</a>
       </li>
-      
+
       <li class="nav-item">
         <a class="nav-link" href="hula.html">Hula</a>
       </li>
-      
+
       <li class="nav-item">
         <a class="nav-link" href="surfSpots.html">Surf Spots</a>
       </li>
-      
-  
+
+
       <!-- Dropdown -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -51,6 +56,11 @@
       </li>
     </ul>
   </nav>
+
+
+    <!-- I wanted the images to be the same size in height and width, with the text justified left 
+    and not extending beyond the image it sits underneath of. Without creating a card, I'm not sure
+  how to accomplish this in the grid system.  -->
 
   <div class="card-mb-3">
     <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hanauma_Bay_Panoramic_View.JPG/1800px-Hanauma_Bay_Panoramic_View.JPG" alt="Hanauma Bay">
