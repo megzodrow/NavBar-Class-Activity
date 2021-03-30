@@ -1,68 +1,196 @@
-@font-face { font-family: Nunito; src: url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap)
+@font-face { font-family: "Palanquin"; src: url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap")
 }
 
 
-*{ font-family: 'Nunito', sans-serif;
+*{ font-family: "Palanquin", sans-serif;
  }
 
-.navbar-brand { 
-  font-family: 'Nunito', san-serif;
-  font-weight: 900, bolder;
+
+.navbar-brand{
+   font-family: "Palanquin", sans-serif;
+   font-weight: 700;
+ }
+
+ .nav-link{
+   font-family: "Palanquin", sans-serif;
+   font-weight: bold;
+ }
+
+.display-2{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
 }
 
 
 h1{
-  font-family: "Nunito", sans-serif;
-  font-weight: 800, bold;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700, bolder;
+  font-size: 2.5rem !important;
 }
 
 .lead center  { 
-  font-family: "Nunito", sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-weight: 600, semi-bold;
 }
 
+h3{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 h5{
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
 }
 p{ 
-  font-family: "Nunito", sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-weight: 400;
+  font-size: 120%;
 }
+
 
 .center {
     text-align: center;
 }
 
 .card-deck {
-  height: 150px;
-  width: auto;
-  padding: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-
-
-.jumbotron{
-  background: url(https://images.unsplash.com/photo-1527265715775-fca32a0f9b22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3153&q=80) no-repeat center center; 
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  margin: 5%;
-  height: 400vh;
-  width: auto;
+  padding-top: 100px;
+  height: 30px;
   
 }
 
+
+
+.card-text{
+  font-size: 16px;
+}
+
+
+/* body, html {
+  height: 100%;
+} */
+
+.hero-image { 
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1596977771393-0c660a2432f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHxoYXdhaWl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+
+/* Set a specific height */
+height: 50vh;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* position: absolute; */
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  align-self: center;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ /* transform: translate(-50%, -50%); */
+  color: white;
+
+}
+
+.navbar-brand img {
+  height: 128px;
+  float: left;
+  margin-right: 7px;
+}
+
+
+.list-group{
+  padding-top: 2em;
+  font-size: 21px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+/*
 .footer { 
-  position: fixed;
-  left: 0;
+  position: fixed-bottom;
+  width: 100%;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50%;  
+}
+
+.footer-image {
+  min-height: 40vh;
+  max-height: 100vh;
+  width: 100%;
+} 
+
+
+
+#footer {
+  background-image: url("images/plumeria-onthe-beach.png");
+  text-align: center;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  font-family: "Nunito", sans-serif;
-  font-weight: 900, bolder;
-  text-align: center;
-  margin-top: 15%;
+  height: 20vh;  
+
+}*/
+
+.card{
+  background-color:white;
+}
+
+.col-sm-6{
+  padding: 0, 10%, 0, 0;
+}
+
+/*
+.card-img{
+  height:300px;
+  max-width:auto;
+  object-fit:cover;
+  opacity:.5;
+
+  bottom: 0;
+
+.card-img-overlay{
+    padding-top:60%;
+}
+*/
+
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+main {
+  flex: 1;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#bottom{
+  height: 60px;
 
 }
