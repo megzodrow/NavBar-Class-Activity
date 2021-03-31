@@ -1,92 +1,100 @@
-@font-face { font-family: "Palanquin"; src: url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap")
+@font-face {
+  font-family: "Palanquin";
+  src: url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap")
 }
 
 
-*{ font-family: "Palanquin", sans-serif;
- }
+* {
+  font-family: "Palanquin", sans-serif;
+}
 
 
-.navbar-brand{
-   font-family: "Palanquin", sans-serif;
-   font-weight: 700;
- }
+.navbar-brand {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+}
 
- .nav-link{
-   font-family: "Palanquin", sans-serif;
-   font-weight: bold;
- }
+.nav-link {
+  font-family: "Palanquin", sans-serif;
+  font-weight: bold;
+}
 
-.display-2{
+.display-2 {
   font-family: "Palanquin", sans-serif;
   font-weight: 700;
 }
 
 
-h1{
+h1 {
   font-family: "Palanquin", sans-serif;
   font-weight: 700, bolder;
   font-size: 2.5rem !important;
 }
 
-.lead center  { 
+.lead center {
   font-family: "Palanquin", sans-serif;
   font-weight: 600, semi-bold;
 }
 
-h3{
+h3 {
   font-family: "Palanquin", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
 
-h5{
+h5 {
   font-family: "Palanquin", sans-serif;
   font-weight: 700;
 }
-p{ 
+
+p {
   font-family: "Palanquin", sans-serif;
   font-weight: 400;
   font-size: 120%;
 }
 
-.navbar{
+
+
+.navbar {
   margin-bottom: 2rem;
 }
 
 .navbar-brand {
   width: 50px;
 }
+
 .navbar-brand img {
   height: 50px;
   float: left;
   margin-right: 7px;
 }
+
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .card-deck {
   padding-top: 100px;
   height: 30px;
-  
+
 }
 
-img{
+img {
   max-height: 400px;
 }
 
 
-.hero-image { 
-background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1596977771393-0c660a2432f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHxoYXdhaWl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1596977771393-0c660a2432f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHxoYXdhaWl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
 
-/* Set a specific height */
-height: 50vh;
+  /* Set a specific height */
+  height: 50vh;
 
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-/* position: absolute; */
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: absolute; */
 }
 
 /* Place text in the middle of the image */
@@ -99,7 +107,7 @@ background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- /* transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
   color: white;
 
 }
@@ -111,7 +119,7 @@ background-size: cover;
 }
 
 
-.list-group{
+.list-group {
   padding-top: 2em;
   font-size: 21px;
 }
@@ -122,7 +130,7 @@ background-size: cover;
   object-fit: cover;
 }
 
-.card-body{ 
+.card-body {
   width: inherit;
 }
 
@@ -160,23 +168,24 @@ background-size: cover;
 
 }*/
 
-.card{
-  background-color:white;
+.card {
+  background-color: white;
   margin-bottom: 25%;
 }
 
-.col-sm-6{
+.col-sm-6 {
   padding: 5%;
 }
 
-.col-sm-4{
+.col-sm-4 {
   padding: 5%;
 }
 
-.card-img-top{
+.card-img-top {
   max-width: 500px;
   max-height: 500px;
-} 
+}
+
 
 body {
   display: flex;
@@ -184,16 +193,21 @@ body {
   min-height: 100vh;
 }
 
-
-#footer {
-  float: inline-end;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  flex: 0 0 50px;
-  margin-top: auto;
+main {
+  flex: 1;
 }
 
-#bottom{
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50vh;
+}
+
+
+
+#bottom {
   height: 60px;
 }
